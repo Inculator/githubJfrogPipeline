@@ -1,1 +1,6 @@
-
+resources:
+  - name: githubJfrogPipeline
+    type: GitRepo
+    configuration:
+      gitProvider: my_github               # Change to your integration
+      path: Inculator/githubJfrogPipeline                 # Change to your repo
